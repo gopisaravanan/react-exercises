@@ -2,6 +2,7 @@ import React from 'react'
 import Counter from './hooks/useState-basic'
 import DataFetch from './hooks/useEffect-basic'
 import ControlledInput from './patterns/controlledInput'
+import DebouncedInput from './patterns/DebounceInput'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Counter />
       <DataFetch/>
       <ControlledInput/>
+      <DebouncedInput/>
     </div>
   )
 }
