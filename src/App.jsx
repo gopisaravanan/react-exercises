@@ -3,6 +3,7 @@ import Counter from './hooks/useState-basic'
 import DataFetch from './hooks/useEffect-basic'
 import ControlledInput from './patterns/controlledInput'
 import DebouncedInput from './patterns/DebounceInput'
+import FormHandling from './patterns/FormHandling'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <DataFetch/>
       <ControlledInput/>
       <DebouncedInput/>
+      <FormHandling/>
     </div>
   )
 }
