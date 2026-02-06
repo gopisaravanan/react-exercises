@@ -6,6 +6,7 @@ const ControlledInput = () => {
   const handleOnChange = (e) => {
     setVal(e.target.value);
   };
+
   return (
     <div>
       <h3>Controlled Input</h3>
